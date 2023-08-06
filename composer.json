@@ -17,7 +17,6 @@
             "email": "miftahshidiq704@gmai.com"
         }
     ],
-    "homepage": "https://github.com/miftah704/rsc-api-handler-laravel",
 
     "minimum-stability": "dev",
     "prefer-stable": true,
