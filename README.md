@@ -16,7 +16,7 @@ Artisan Commands
 ```sh
  php artisan make:repository Miftah
 ```
-Output Path : App->Repositories->MiftahRepository.php AND App->Services->MiftahServices.php
+Output Path : App->Repositories->MiftahRepository.php AND App->Services->MiftahService.php
 ```sh
  php artisan make:handler Miftah
 ```
