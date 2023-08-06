@@ -2,13 +2,25 @@
     "name": "mivu/rscapihandler-laravel",
     "description": "simple package for handle api in laravel",
     "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "mivu",
+        "helpers",
+        "laravel",
+        "package",
+        "api",
+        "response"
+    ],
     "authors": [
         {
             "name": "miftah shidiq",
             "email": "miftahshidiq704@gmai.com"
         }
     ],
-    "minimum-stability": "stable",
+    "homepage": "https://github.com/miftah704/rsc-api-handler-laravel",
+
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": ">=8.0"
     },
