@@ -55,3 +55,5 @@ or you can create api response and automatically output is json
         }
     }
 ```
+here is output:
+![output](https://github.com/miftah704/rsc-api-handler-laravel/blob/main/output-exam.png)
