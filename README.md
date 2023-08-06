@@ -1,15 +1,15 @@
 # rsc-api-handler-laravel
-simple package for error handler, send json format
+A simple package for handling errors, JSON templates, and repository patterns including Artisan commands.
 
 # instalation
 ```sh
 composer require mivu/rscapihandler-laravel
 ```
 # Features
-- Make Artisan Handlers
-- Make Artisan Services
-- Make Artisan Repositories
-- Api Response Json Format
+- Create Artisan Handlers
+- Create Artisan Services
+- Create Artisan Repositories
+- JSON API Response Format
 - Model Response Format
 # Basic Usage
 Artisan Commands
@@ -35,7 +35,7 @@ Helpers
         ]);
 ```
 - Response Handler
-if you implementation service and repository, you can create inside function for response handler
+If you have implemented a service and repository, you can create an inside function for response handling.
 ```php
     public function limit(int $limit, $filter)
     {
@@ -44,7 +44,7 @@ if you implementation service and repository, you can create inside function for
     }
 ```
 - Api Response Handlers
-or you can create api response and automatically output is json
+Alternatively, you can create an API response and the output will be automatically in JSON format.
 ```php
     public function find($id)
     {
@@ -55,5 +55,5 @@ or you can create api response and automatically output is json
         }
     }
 ```
-here is output:
+Here's an example of the output:
 ![output](https://github.com/miftah704/rsc-api-handler-laravel/blob/main/output-exam.png)
